@@ -13,6 +13,7 @@ header {
     background-position: 50% 25%;
     text-align: center;
     padding: 70px;
+    text-shadow: 0px 0px 5px black;
     color: white;
 
 
@@ -22,8 +23,26 @@ header {
 nav {
     background-color: rgb(81, 80, 80);
     text-align: center;
-    padding: 10px;
+    padding: 1px;
+
+
+    ul {
+        list-style-type: none;
+        margin: 5px;
+        padding: 10px;
+        overflow: hidden;
+
+    }
+
+    ul li a {
+        padding: 5px 10px;
+    }
+
+    ul li {
+        float: left;
+    }
 }
+
 
 h1 {
     font-size: 50px;
@@ -37,6 +56,7 @@ button {
     background-color: darkslategray;
     color: white;
     font-size: large;
+    padding: 20px 15px;
 
 }
 
