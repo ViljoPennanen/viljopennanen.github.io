@@ -25,6 +25,14 @@ header .header-bg {
     z-index: -1;
 }
 
+footer {
+    padding: 20px;
+    background-color: rgb(80, 80, 80);
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
 nav {
     background-color: rgb(81, 80, 80);
     text-align: center;
@@ -59,7 +67,7 @@ button {
     color: white;
     font-size: large;
     padding: 20px 15px;
-    cursor: cell;
+    cursor: pointer;
 }
 
 button:hover {
