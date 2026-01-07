@@ -1,7 +1,8 @@
 .container {
     display: flex;
     justify-content: center;
-    flex-direction: row
+    flex-direction: row;
+
 }
 
 .container div {
@@ -114,7 +115,7 @@ header .header-bg {
 
 footer {
     padding: 20px;
-    background-color: rgb(69, 68, 68);
+    background-color: rgb(69, 69, 69);
     text-align: center;
     color: white;
     font-size: large;
@@ -171,33 +172,30 @@ button:hover {
 
 }
 
-/*tekeleet alkaa*/
-div.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
-div.gallery-item {
-    margin: 10px;
-    border: 5px solid #ccc;
-    width: 300px;
 
-}
-
-div.gallery-item:hover {
-    border: 5px solid blue;
-}
-
-div.gallery-item img {
-    width: 100%;
-    height: auto;
-    margin: auto;
-}
-
-div.gallery-item div.desc {
-    padding: 15px;
+.tekele {
+    background-color: white;
+    border-style: solid;
+    border-width: 3px;
+    padding: 10px;
+    margin: 20px;
     text-align: center;
+
 }
 
-/*tekeleet loppuu*/
+.tekelekuva {
+    width: 300px;
+    margin: auto;
+    border: 5px solid black;
+
+}
+
+.tekeleloota {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    flex-direction: row;
+    max-width: 90%;
+
+}
