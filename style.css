@@ -279,16 +279,32 @@ details>p {
     text-align: center;
     padding: 20px;
     max-width: 1000px;
-    margin: 20px 10px 10px 10px;
+    margin: auto;
+    margin-top: 20px;
     border-style: solid;
     border-color: black;
     border-width: 3px;
 
 }
 
+.sisallys {
+    background-color: white;
+    align-content: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
 .blogphoto {
     max-width: 400px;
     float: left;
+}
+
+.runo {
+    font-style: italic;
 }
 
 /* TESTI ALKAA */
