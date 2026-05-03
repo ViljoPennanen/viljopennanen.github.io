@@ -115,6 +115,10 @@ body {
     background-color: rgb(185, 183, 183);
 }
 
+
+
+
+
 header {
     text-align: center;
     padding: 70px 0;
@@ -305,6 +309,8 @@ details>p {
 
 .runo {
     font-style: italic;
+    white-space: pre-line;
+    align-content: center;
 }
 
 /* TESTI ALKAA */
